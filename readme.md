@@ -24,7 +24,7 @@ using the browser or a tool like postman
 you can also vist 127.0.0.1:8888/docs and try the payload there
 
 you can also check the hosted docker image here
-https://extia.onrender.com
+https://extia.onrender.com/docs
 
 # Docker
 run
