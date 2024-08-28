@@ -1,3 +1,5 @@
+challenge description at challenge.md
+
 # Running localy
 first install dependencies
 ``` sh
@@ -7,7 +9,7 @@ first install dependencies
 
 to run tests:
 ``` sh
-    python test_main
+    python test_main.py
 ```
 or simply:
 ``` sh
@@ -34,9 +36,10 @@ run
 ```
 
 # issues
-- produced power strictly equal load (no over production)
+- produced power strictly equal to load (no over production)
+
 IRL overproduction is usually alright (in resonable ammounts)
 extra power is either stored in a dam or simply sold to a connected grid
 added an extra arg (overproduction) which default to false to handle this case
-- kerosen produces co2 aswell that should be accounted for too?
+- kerosen produces co2 aswell, that should be accounted for too?
 - co2 tax should be based on consumed energy not produced?
